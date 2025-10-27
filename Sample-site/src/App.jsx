@@ -4,7 +4,6 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './Pages/Home'
-import About from './Pages/About'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -12,11 +11,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
+  }
 ]);
 
 const App = () => {
